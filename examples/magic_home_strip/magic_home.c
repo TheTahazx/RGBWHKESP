@@ -211,7 +211,7 @@ homekit_accessory_t *accessories[] = {
 
 homekit_server_config_t config = {
     .accessories = accessories,
-    .password = "190-11-978"    //changed tobe valid
+    .password = "000-00-123"    //changed tobe valid
 };
 
 IRAM void multipwm_task(void *pvParameters) {
